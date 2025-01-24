@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+        <TextBlock Text="WinUI Test" FontSize="40" Padding="10" HorizontalAlignment="Center" />
+        <HyperlinkButton Content="Controls for Windows apps" NavigateUri="https://learn.microsoft.com/en-us/windows/apps/design/controls/" />
+        <HyperlinkButton Content="Microsoft.UI.Xaml.Controls Namespace" NavigateUri="https://learn.microsoft.com/en-us/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls" />
+    </StackPanel>
+
+</Page>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <StackPanel Orientation="Vertical">
+        <TextBlock>SplitButton</TextBlock>
+        <SplitButton x:Name="SplitButton1" Content="SplitButton" Click="SplitButton1_Click">
+            <SplitButton.Flyout>
+                <Flyout>
+                    <StackPanel>
+                        <Button Click="SplitButton1_Item_Click" Tag="Red">
+                            <Button.Content>
+                                <Rectangle Fill="Red" Width="20" Height="20" />
+                            </Button.Content>
+                        </Button>
+                        <Button Click="SplitButton1_Item_Click" Tag="Blue">
+                            <Button.Content>
+                                <Rectangle Fill="Blue" Width="20" Height="20" />
+                            </Button.Content>
+                        </Button>
+                        <Button Click="SplitButton1_Item_Click" Tag="Green">
+                            <Button.Content>
+                                <Rectangle Fill="Green" Width="20" Height="20" />
+                            </Button.Content>
+                        </Button>
+                    </StackPanel>
+                </Flyout>
+            </SplitButton.Flyout>
+        </SplitButton>
+    </StackPanel>
+
+</Page>

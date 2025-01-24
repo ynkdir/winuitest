@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <StackPanel Orientation="Vertical">
+        <TextBlock>Sound</TextBlock>
+        <ToggleSwitch x:Name="soundToggle" OffContent="Sound Off" OnContent="Sound On" Toggled="soundToggle_Toggled" />
+        <Button Content="&#x25B6; Focus" ElementSoundMode="Off" Tag="0" Click="Button_Click"/>
+        <Button Content="&#x25B6; Invoke" ElementSoundMode="Off" Tag="1" Click="Button_Click"/>
+        <Button Content="&#x25B6; Show" ElementSoundMode="Off" Tag="2" Click="Button_Click"/>
+        <Button Content="&#x25B6; Hide" ElementSoundMode="Off" Tag="3" Click="Button_Click"/>
+        <Button Content="&#x25B6; MovePrevious" ElementSoundMode="Off" Tag="4" Click="Button_Click"/>
+        <Button Content="&#x25B6; MoveNext" ElementSoundMode="Off" Tag="5" Click="Button_Click"/>
+        <Button Content="&#x25B6; GoBack" ElementSoundMode="Off" Tag="6" Click="Button_Click"/>
+    </StackPanel>
+
+</Page>

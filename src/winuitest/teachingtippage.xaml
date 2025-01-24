@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <StackPanel Orientation="Vertical">
+        <TextBlock>TeachingTip</TextBlock>
+        <Button x:Name="Button1" Content="Show TeachingTip" Click="Button1_Click" />
+        <TeachingTip x:Name="ToggleThemeTeachingTip1"
+            Target="{Binding ElementName=Button1}"
+            Title="This is the title"
+            Subtitle="And this is the subtitle">
+            <TeachingTip.IconSource>
+                <SymbolIconSource Symbol="Refresh" />
+            </TeachingTip.IconSource>
+        </TeachingTip>
+    </StackPanel>
+
+</Page>

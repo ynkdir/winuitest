@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Window.SystemBackdrop>
+        <MicaBackdrop Kind="Base" />
+    </Window.SystemBackdrop>
+
+    <NavigationView x:Name="NavigationView1" IsBackButtonVisible="Collapsed" IsSettingsVisible="false" SelectionChanged="NavigationView1_SelectionChanged">
+        <NavigationView.MenuItems>
+            <NavigationViewItem Tag="winuitest.homepage.HomePage" Content="Home" Icon="Home" />
+            <NavigationViewItem Tag="winuitest.basicinputpage.BasicInputPage" Content="Basic input">
+                <NavigationViewItem.Icon>
+                    <FontIcon Glyph="&#xE73A;" />
+                </NavigationViewItem.Icon>
+                <NavigationViewItem.MenuItems>
+                    <NavigationViewItem Tag="winuitest.buttonpage.ButtonPage" Content="Button" />
+                    <NavigationViewItem Tag="winuitest.repeatbuttonpage.RepeatButtonPage" Content="RepeatButton" />
+                    <NavigationViewItem Tag="winuitest.hyperlinkbuttonpage.HyperlinkButtonPage" Content="HyperlinkButton" />
+                    <NavigationViewItem Tag="winuitest.dropdownbuttonpage.DropDownButtonPage" Content="DropDownButton" />
+                    <NavigationViewItem Tag="winuitest.splitbuttonpage.SplitButtonPage" Content="SplitButton" />
+                    <NavigationViewItem Tag="winuitest.togglebuttonpage.ToggleButtonPage" Content="ToggleButton" />
+                    <NavigationViewItem Tag="winuitest.togglesplitbuttonpage.ToggleSplitButtonPage" Content="ToggleSplitButton" />
+                    <NavigationViewItem Tag="winuitest.checkboxpage.CheckBoxPage" Content="CheckBox" />
+                    <NavigationViewItem Tag="winuitest.colorpickerpage.ColorPickerPage" Content="ColorPicker" />
+                    <NavigationViewItem Tag="winuitest.comboboxpage.ComboBoxPage" Content="ComboBox" />
+                    <NavigationViewItem Tag="winuitest.radiobuttonpage.RadioButtonPage" Content="RadioButton" />
+                    <NavigationViewItem Tag="winuitest.ratingcontrolpage.RatingControlPage" Content="RatingControl" />
+                    <NavigationViewItem Tag="winuitest.sliderpage.SliderPage" Content="Slider" />
+                    <NavigationViewItem Tag="winuitest.toggleswitchpage.ToggleSwitchPage" Content="ToggleSwitch" />
+                </NavigationViewItem.MenuItems>
+            </NavigationViewItem>
+            <NavigationViewItem Tag="winuitest.collectionspage.CollectionsPage" Content="Collections">
+                <NavigationViewItem.Icon>
+                    <FontIcon Glyph="&#xE80A;" />
+                </NavigationViewItem.Icon>
+                <NavigationViewItem.MenuItems>
+                    <NavigationViewItem Tag="winuitest.flipviewpage.FlipViewPage" Content="FlipView" />
+                    <NavigationViewItem Tag="winuitest.gridviewpage.GridViewPage" Content="GridView" />
+                    <NavigationViewItem Tag="winuitest.itemsviewpage.ItemsViewPage" Content="ItemsView" />
+                    <NavigationViewItem Tag="winuitest.listboxpage.ListBoxPage" Content="ListBox" />
+                    <NavigationViewItem Tag="winuitest.listviewpage.ListViewPage" Content="ListView" />
+                    <NavigationViewItem Tag="winuitest.pulltorefreshpage.PullToRefreshPage" Content="PullToRefresh" />
+                    <NavigationViewItem Tag="winuitest.treeviewpage.TreeViewPage" Content="TreeView" />
+                </NavigationViewItem.MenuItems>
+            </NavigationViewItem>
+            <NavigationViewItem Tag="winuitest.dateandtimepage.DateAndTimePage" Content="Date &amp; time">
+                <NavigationViewItem.Icon>
+                    <FontIcon Glyph="&#xEC92;" />
+                </NavigationViewItem.Icon>
+                <NavigationViewItem.MenuItems>
+                    <NavigationViewItem Tag="winuitest.calendardatepickerpage.CalendarDatePickerPage" Content="CalendarDatePicker" />
+                    <NavigationViewItem Tag="winuitest.calendarviewpage.CalendarViewPage" Content="CalendarView" />
+                    <NavigationViewItem Tag="winuitest.datepickerpage.DatePickerPage" Content="DatePicker" />
+                    <NavigationViewItem Tag="winuitest.timepickerpage.TimePickerPage" Content="TimePicker" />
+                </NavigationViewItem.MenuItems>
+            </NavigationViewItem>
+            <NavigationViewItem Tag="winuitest.dialogsandflyoutspage.DialogsAndFlyoutsPage" Content="Dialogs &amp; flyouts">
+                <NavigationViewItem.Icon>
+                    <FontIcon Glyph="&#xE8BD;" />
+                </NavigationViewItem.Icon>
+                <NavigationViewItem.MenuItems>
+                    <NavigationViewItem Tag="winuitest.contentdialogpage.ContentDialogPage" Content="ContentDialog" />
+                    <NavigationViewItem Tag="winuitest.flyoutpage.FlyoutPage" Content="Flyout" />
+                    <NavigationViewItem Tag="winuitest.teachingtippage.TeachingTipPage" Content="TeachingTip" />
+                </NavigationViewItem.MenuItems>
+            </NavigationViewItem>
+            <NavigationViewItem Tag="winuitest.layoutpage.LayoutPage" Content="Layout">
+                <NavigationViewItem.Icon>
+                    <FontIcon Glyph="&#xE8A1;" />
+                </NavigationViewItem.Icon>
+                <NavigationViewItem.MenuItems>
+                    <NavigationViewItem Tag="winuitest.borderpage.BorderPage" Content="Border" />
+                    <NavigationViewItem Tag="winuitest.canvaspage.CanvasPage" Content="Canvas" />
+                    <NavigationViewItem Tag="winuitest.expanderpage.ExpanderPage" Content="Expander" />
+                    <NavigationViewItem Tag="winuitest.itemsrepeaterpage.ItemsRepeaterPage" Content="ItemsRepeater" />
+                    <NavigationViewItem Tag="winuitest.gridpage.GridPage" Content="Grid" />
+                    <NavigationViewItem Tag="winuitest.radiobuttonspage.RadioButtonsPage" Content="RadioButtons" />
+                    <NavigationViewItem Tag="winuitest.relativepanelpage.RelativePanelPage" Content="RelativePanel" />
+                    <NavigationViewItem Tag="winuitest.splitviewpage.SplitViewPage" Content="SplitView" />
+                    <NavigationViewItem Tag="winuitest.stackpanelpage.StackPanelPage" Content="StackPanel" />
+                    <NavigationViewItem Tag="winuitest.variablesizedwrapgridpage.VariableSizedWrapGridPage" Content="VariableSizedWrapGrid" />
+                    <NavigationViewItem Tag="winuitest.viewboxpage.ViewBoxPage" Content="ViewBox" />
+                </NavigationViewItem.MenuItems>
+            </NavigationViewItem>
+            <NavigationViewItem Tag="winuitest.mediapage.MediaPage" Content="Media">
+                <NavigationViewItem.Icon>
+                    <FontIcon Glyph="&#xE786;" />
+                </NavigationViewItem.Icon>
+                <NavigationViewItem.MenuItems>
+                    <NavigationViewItem Tag="winuitest.animatedvisualplayerpage.AnimatedVisualPlayerPage" Content="AnimatedVisualPlayer" />
+                    <NavigationViewItem Tag="winuitest.captureelementpreviewpage.CaptureElementPreviewPage" Content="Capture Element / Camera Preview" />
+                    <NavigationViewItem Tag="winuitest.imagepage.ImagePage" Content="Image" />
+                    <NavigationViewItem Tag="winuitest.mapcontrolpage.MapControlPage" Content="MapControl" />
+                    <NavigationViewItem Tag="winuitest.mediaplayerelementpage.MediaPlayerElementPage" Content="MediaPlayerElement" />
+                    <NavigationViewItem Tag="winuitest.personpicturepage.PersonPicturePage" Content="PersonPicture" />
+                    <NavigationViewItem Tag="winuitest.soundpage.SoundPage" Content="Sound" />
+                    <NavigationViewItem Tag="winuitest.webview2page.WebView2Page" Content="WebView2" />
+                </NavigationViewItem.MenuItems>
+            </NavigationViewItem>
+        </NavigationView.MenuItems>
+        <Frame x:Name="Frame1" />
+    </NavigationView>
+
+</Window>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <StackPanel Orientation="Vertical">
+        <TextBlock>RadioButtons</TextBlock>
+        <RadioButtons x:Name="BackgroundRadioButtons" SelectedIndex="0" MaxColumns="3" Header="Background" SelectionChanged="BackgroundColor_SelectionChanged">
+            <x:String>Green</x:String>
+            <x:String>Yellow</x:String>
+            <x:String>White</x:String>
+        </RadioButtons>
+        <RadioButtons x:Name="BorderRadioButtons" SelectedIndex="2" MaxColumns="3" Header="Border" SelectionChanged="BorderBrush_SelectionChanged">
+            <x:String>Green</x:String>
+            <x:String>Yellow</x:String>
+            <x:String>White</x:String>
+        </RadioButtons>
+        <Border x:Name="ControlOutput" BorderThickness="10" BorderBrush="#FFFFD700" Background="#FFFFFFFF" Height="50" Margin="0,10,0,10" />
+    </StackPanel>
+
+</Page>
