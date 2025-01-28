@@ -102,6 +102,14 @@
                     <NavigationViewItem Tag="winuitest.webview2page.WebView2Page" Content="WebView2" />
                 </NavigationViewItem.MenuItems>
             </NavigationViewItem>
+            <NavigationViewItem Tag="winuitest.menusandtoolbarspage.MenusAndToolbarsPage" Content="Menus &amp; toolbars">
+                <NavigationViewItem.Icon>
+                    <FontIcon Glyph="&#xE74E;" />
+                </NavigationViewItem.Icon>
+                <NavigationViewItem.MenuItems>
+                    <NavigationViewItem Tag="winuitest.xamluicommandpage.XamlUICommandPage" Content="XamlUICommand" />
+                </NavigationViewItem.MenuItems>
+            </NavigationViewItem>
         </NavigationView.MenuItems>
         <Frame x:Name="Frame1" />
     </NavigationView>
