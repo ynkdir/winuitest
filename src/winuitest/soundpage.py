@@ -2,7 +2,7 @@ from pathlib import Path
 
 from win32more.Microsoft.UI.Xaml import ElementSoundPlayer, ElementSoundPlayerState
 from win32more.Microsoft.UI.Xaml.Controls import Button, Page
-from win32more.xaml import XamlClass
+from win32more.appsdk.xaml import XamlClass
 
 
 class SoundPage(XamlClass, Page):

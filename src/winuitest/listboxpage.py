@@ -3,7 +3,7 @@ from pathlib import Path
 from win32more.Microsoft.UI.Xaml.Controls import Page
 from win32more.Microsoft.UI.Xaml.Media import SolidColorBrush
 from win32more.Windows.UI import Colors
-from win32more.xaml import XamlClass
+from win32more.appsdk.xaml import XamlClass
 
 
 class ListBoxPage(XamlClass, Page):

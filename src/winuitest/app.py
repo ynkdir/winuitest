@@ -1,7 +1,7 @@
 import importlib
 
 from win32more.Windows.UI.Xaml.Interop import TypeKind
-from win32more.xaml import XamlApplication, XamlType
+from win32more.appsdk.xaml import XamlApplication, XamlType
 
 from .mainwindow import MainWindow
 

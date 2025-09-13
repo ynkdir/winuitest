@@ -1,7 +1,7 @@
 from pathlib import Path
 
 from win32more.Microsoft.UI.Xaml.Controls import Page
-from win32more.xaml import XamlClass, as_runtime_class
+from win32more.appsdk.xaml import XamlClass, as_runtime_class
 
 
 class TreeViewPage(XamlClass, Page):

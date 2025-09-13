@@ -1,10 +1,10 @@
 from pathlib import Path
 
-from win32more._winrt import box_value
-from win32more._winrtrt import Vector
+from win32more.winrt import box_value
+from win32more.winrt.vector import Vector
 from win32more.Microsoft.UI.Xaml.Controls import Page
 from win32more.Windows.Win32.System.WinRT import IInspectable
-from win32more.xaml import XamlClass
+from win32more.appsdk.xaml import XamlClass
 
 
 class ItemsViewPage(XamlClass, Page):

@@ -10,7 +10,7 @@ from win32more.Windows.Media.Capture import (
 )
 from win32more.Windows.Media.Capture.Frames import MediaFrameSourceGroup
 from win32more.Windows.Media.Core import MediaSource
-from win32more.xaml import XamlClass
+from win32more.appsdk.xaml import XamlClass
 
 
 class CaptureElementPreviewPage(XamlClass, Page):
