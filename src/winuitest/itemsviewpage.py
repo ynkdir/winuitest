@@ -4,7 +4,7 @@ from win32more.winrt import box_value
 from win32more.winrt.vector import Vector
 from win32more.Microsoft.UI.Xaml.Controls import Page
 from win32more.Windows.Win32.System.WinRT import IInspectable
-from win32more.appsdk.xaml import XamlClass
+from win32more.winui3 import XamlClass
 
 
 class ItemsViewPage(XamlClass, Page):

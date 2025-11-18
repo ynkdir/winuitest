@@ -5,7 +5,7 @@ from win32more.Microsoft.UI.Xaml.Controls import (
     ContentDialogResult,
     Page,
 )
-from win32more.appsdk.xaml import XamlClass
+from win32more.winui3 import XamlClass
 
 
 class ContentDialogPage(XamlClass, Page):

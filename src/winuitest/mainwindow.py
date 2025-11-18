@@ -3,7 +3,7 @@ from pathlib import Path
 from win32more.Microsoft.UI.Xaml import Window
 from win32more.Microsoft.UI.Xaml.Controls import NavigationViewItem
 from win32more.Windows.UI.Xaml.Interop import TypeKind
-from win32more.appsdk.xaml import XamlClass, xaml_typename
+from win32more.winui3 import XamlClass, xaml_typename
 
 
 class MainWindow(XamlClass, Window):
