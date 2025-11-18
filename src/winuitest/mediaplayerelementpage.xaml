@@ -8,7 +8,6 @@
 
     <StackPanel Orientation="Vertical">
         <TextBlock>MediaPlayerElement</TextBlock>
-        <!-- TODO: ResourceNotFound event is not triggered for MediaPlayerElement.Source -->
         <MediaPlayerElement Source="movie1.mp4" Stretch="None" Width="400" Height="400" AreTransportControlsEnabled="True" />
     </StackPanel>
 
