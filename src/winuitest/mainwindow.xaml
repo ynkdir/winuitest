@@ -109,6 +109,7 @@
                 <NavigationViewItem.MenuItems>
                     <NavigationViewItem Tag="winuitest.appbarbuttonpage.AppBarButtonPage" Content="AppBarButton" />
                     <NavigationViewItem Tag="winuitest.appbarseparatorpage.AppBarSeparatorPage" Content="AppBarSeparator" />
+                    <NavigationViewItem Tag="winuitest.appbartogglebuttonpage.AppBarToggleButtonPage" Content="AppBarToggleButton" />
                     <NavigationViewItem Tag="winuitest.xamluicommandpage.XamlUICommandPage" Content="XamlUICommand" />
                 </NavigationViewItem.MenuItems>
             </NavigationViewItem>
