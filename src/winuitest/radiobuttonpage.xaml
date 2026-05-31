@@ -14,6 +14,19 @@
             <RadioButton Content="Option 3" Checked="RadioButton_Checked" />
         </RadioButtons>
         <TextBlock x:Name="Result" />
+
+        <TextBlock>RadioButtons</TextBlock>
+        <RadioButtons x:Name="BackgroundRadioButtons" SelectedIndex="0" MaxColumns="3" Header="Background" SelectionChanged="BackgroundColor_SelectionChanged">
+            <x:String>Green</x:String>
+            <x:String>Yellow</x:String>
+            <x:String>White</x:String>
+        </RadioButtons>
+        <RadioButtons x:Name="BorderRadioButtons" SelectedIndex="2" MaxColumns="3" Header="Border" SelectionChanged="BorderBrush_SelectionChanged">
+            <x:String>Green</x:String>
+            <x:String>Yellow</x:String>
+            <x:String>White</x:String>
+        </RadioButtons>
+        <Border x:Name="ControlOutput" BorderThickness="10" BorderBrush="#FFFFD700" Background="#FFFFFFFF" Height="50" Margin="0,10,0,10" />
     </StackPanel>
 
 </Page>

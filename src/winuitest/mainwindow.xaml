@@ -80,7 +80,6 @@
                     <NavigationViewItem Tag="winuitest.canvaspage.CanvasPage" Content="Canvas" />
                     <NavigationViewItem Tag="winuitest.expanderpage.ExpanderPage" Content="Expander" />
                     <NavigationViewItem Tag="winuitest.gridpage.GridPage" Content="Grid" />
-                    <NavigationViewItem Tag="winuitest.radiobuttonspage.RadioButtonsPage" Content="RadioButtons" />
                     <NavigationViewItem Tag="winuitest.relativepanelpage.RelativePanelPage" Content="RelativePanel" />
                     <NavigationViewItem Tag="winuitest.splitviewpage.SplitViewPage" Content="SplitView" />
                     <NavigationViewItem Tag="winuitest.stackpanelpage.StackPanelPage" Content="StackPanel" />
