@@ -19,11 +19,11 @@
                 </NavigationViewItem.Icon>
                 <NavigationViewItem.MenuItems>
                     <NavigationViewItem Tag="winuitest.buttonpage.ButtonPage" Content="Button" />
-                    <NavigationViewItem Tag="winuitest.repeatbuttonpage.RepeatButtonPage" Content="RepeatButton" />
-                    <NavigationViewItem Tag="winuitest.hyperlinkbuttonpage.HyperlinkButtonPage" Content="HyperlinkButton" />
                     <NavigationViewItem Tag="winuitest.dropdownbuttonpage.DropDownButtonPage" Content="DropDownButton" />
-                    <NavigationViewItem Tag="winuitest.splitbuttonpage.SplitButtonPage" Content="SplitButton" />
+                    <NavigationViewItem Tag="winuitest.hyperlinkbuttonpage.HyperlinkButtonPage" Content="HyperlinkButton" />
+                    <NavigationViewItem Tag="winuitest.repeatbuttonpage.RepeatButtonPage" Content="RepeatButton" />
                     <NavigationViewItem Tag="winuitest.togglebuttonpage.ToggleButtonPage" Content="ToggleButton" />
+                    <NavigationViewItem Tag="winuitest.splitbuttonpage.SplitButtonPage" Content="SplitButton" />
                     <NavigationViewItem Tag="winuitest.togglesplitbuttonpage.ToggleSplitButtonPage" Content="ToggleSplitButton" />
                     <NavigationViewItem Tag="winuitest.checkboxpage.CheckBoxPage" Content="CheckBox" />
                     <NavigationViewItem Tag="winuitest.colorpickerpage.ColorPickerPage" Content="ColorPicker" />
@@ -41,6 +41,7 @@
                 <NavigationViewItem.MenuItems>
                     <NavigationViewItem Tag="winuitest.flipviewpage.FlipViewPage" Content="FlipView" />
                     <NavigationViewItem Tag="winuitest.gridviewpage.GridViewPage" Content="GridView" />
+                    <NavigationViewItem Tag="winuitest.itemsrepeaterpage.ItemsRepeaterPage" Content="ItemsRepeater" />
                     <NavigationViewItem Tag="winuitest.itemsviewpage.ItemsViewPage" Content="ItemsView" />
                     <NavigationViewItem Tag="winuitest.listboxpage.ListBoxPage" Content="ListBox" />
                     <NavigationViewItem Tag="winuitest.listviewpage.ListViewPage" Content="ListView" />
@@ -66,6 +67,7 @@
                 <NavigationViewItem.MenuItems>
                     <NavigationViewItem Tag="winuitest.contentdialogpage.ContentDialogPage" Content="ContentDialog" />
                     <NavigationViewItem Tag="winuitest.flyoutpage.FlyoutPage" Content="Flyout" />
+                    <NavigationViewItem Tag="winuitest.popuppage.PopupPage" Content="Popup" />
                     <NavigationViewItem Tag="winuitest.teachingtippage.TeachingTipPage" Content="TeachingTip" />
                 </NavigationViewItem.MenuItems>
             </NavigationViewItem>
@@ -77,7 +79,6 @@
                     <NavigationViewItem Tag="winuitest.borderpage.BorderPage" Content="Border" />
                     <NavigationViewItem Tag="winuitest.canvaspage.CanvasPage" Content="Canvas" />
                     <NavigationViewItem Tag="winuitest.expanderpage.ExpanderPage" Content="Expander" />
-                    <NavigationViewItem Tag="winuitest.itemsrepeaterpage.ItemsRepeaterPage" Content="ItemsRepeater" />
                     <NavigationViewItem Tag="winuitest.gridpage.GridPage" Content="Grid" />
                     <NavigationViewItem Tag="winuitest.radiobuttonspage.RadioButtonsPage" Content="RadioButtons" />
                     <NavigationViewItem Tag="winuitest.relativepanelpage.RelativePanelPage" Content="RelativePanel" />

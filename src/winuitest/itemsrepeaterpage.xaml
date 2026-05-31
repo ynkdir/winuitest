@@ -10,9 +10,10 @@
         <TextBlock>ItemsRepeater</TextBlock>
         <ItemsRepeater x:Name="ItemsRepeater1">
             <DataTemplate>
-                <Button Content="{Binding}" />
+                <Button Content="{Binding}" Click="Button_Click" />
             </DataTemplate>
         </ItemsRepeater>
+        <TextBlock x:Name="Output" />
     </StackPanel>
 
 </Page>

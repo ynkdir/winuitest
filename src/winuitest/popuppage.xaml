@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <StackPanel Orientation="Vertical">
+        <TextBlock>Button</TextBlock>
+        <Button Content="Show Popup" Click="ShowPopupOffsetClicked" />
+        <Popup x:Name="StandardPopup" VerticalOffset="0" HorizontalOffset="200" IsLightDismissEnabled="True">
+            <Border Padding="20" CornerRadius="20" Width="200" Height="160" BorderThickness="1" BorderBrush="Black">
+                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Spacing="8">
+                    <TextBlock Text="Simple Popup" FontSize="16" HorizontalAlignment="Center" />
+                    <Button Content="Close" Click="ClosePopupClicked" />
+                </StackPanel>
+            </Border>
+        </Popup>
+    </StackPanel>
+
+</Page>
