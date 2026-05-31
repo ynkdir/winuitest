@@ -107,6 +107,7 @@
                     <FontIcon Glyph="&#xE74E;" />
                 </NavigationViewItem.Icon>
                 <NavigationViewItem.MenuItems>
+                    <NavigationViewItem Tag="winuitest.appbarbuttonpage.AppBarButtonPage" Content="AppBarButton" />
                     <NavigationViewItem Tag="winuitest.xamluicommandpage.XamlUICommandPage" Content="XamlUICommand" />
                 </NavigationViewItem.MenuItems>
             </NavigationViewItem>
