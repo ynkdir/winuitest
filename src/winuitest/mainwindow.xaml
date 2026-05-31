@@ -115,6 +115,7 @@
                     <NavigationViewItem Tag="winuitest.menubarpage.MenuBarPage" Content="MenuBar" />
                     <NavigationViewItem Tag="winuitest.menuflyoutpage.MenuFlyoutPage" Content="MenuFlyout" />
                     <NavigationViewItem Tag="winuitest.swipecontrolpage.SwipeControlPage" Content="SwipeControl" />
+                    <NavigationViewItem Tag="winuitest.standarduicommandpage.StandardUICommandPage" Content="StandardUICommand" />
                     <NavigationViewItem Tag="winuitest.xamluicommandpage.XamlUICommandPage" Content="XamlUICommand" />
                 </NavigationViewItem.MenuItems>
             </NavigationViewItem>
