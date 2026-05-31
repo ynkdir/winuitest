@@ -9,7 +9,6 @@ class ItemsViewPage(XamlClass, Page):
     def __init__(self):
         super().__init__()
         self.LoadComponentFromFile(Path(__file__).with_suffix(".xaml"))
-        # FIXME: self.ItemsView1.ItemsSource = ["item1", "item2"]
         self.ItemsView1.ItemsSource = List(["item1", "item2"])
 
     def ItemsView1_SelectionChanged(self, sender, args):
