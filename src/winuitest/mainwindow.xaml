@@ -119,6 +119,11 @@
                     <NavigationViewItem Tag="winuitest.xamluicommandpage.XamlUICommandPage" Content="XamlUICommand" />
                 </NavigationViewItem.MenuItems>
             </NavigationViewItem>
+            <NavigationViewItem Tag="winuitest.motionpage.MotionPage" Content="Motion">
+                <NavigationViewItem.Icon>
+                    <FontIcon Glyph="&#xE945;" />
+                </NavigationViewItem.Icon>
+            </NavigationViewItem>
         </NavigationView.MenuItems>
         <Frame x:Name="Frame1" />
     </NavigationView>
