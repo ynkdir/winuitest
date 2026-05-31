@@ -1,9 +1,7 @@
 from pathlib import Path
 
-from win32more.winrt import box_value
-from win32more.winrt.vector import Vector
+from win32more import List
 from win32more.Microsoft.UI.Xaml.Controls import Page
-from win32more.Windows.Win32.System.WinRT import IInspectable
 from win32more.winui3 import XamlClass
 
 
@@ -12,7 +10,7 @@ class ItemsViewPage(XamlClass, Page):
         super().__init__()
         self.LoadComponentFromFile(Path(__file__).with_suffix(".xaml"))
         # FIXME: self.ItemsView1.ItemsSource = ["item1", "item2"]
-        self.ItemsView1.ItemsSource = Vector[IInspectable]([box_value("item1"), box_value("item2")])
+        self.ItemsView1.ItemsSource = List(["item1", "item2"])
 
     def ItemsView1_SelectionChanged(self, sender, args):
         if not self.ItemsView1.SelectedItem:
