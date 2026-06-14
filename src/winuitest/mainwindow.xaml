@@ -123,6 +123,9 @@
                 <NavigationViewItem.Icon>
                     <FontIcon Glyph="&#xE945;" />
                 </NavigationViewItem.Icon>
+                <NavigationViewItem.MenuItems>
+                    <NavigationViewItem Tag="winuitest.animationinteroppage.AnimationInteropPage" Content="Animation interop" />
+                </NavigationViewItem.MenuItems>
             </NavigationViewItem>
         </NavigationView.MenuItems>
         <Frame x:Name="Frame1" />
