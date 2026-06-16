@@ -125,6 +125,7 @@
                 </NavigationViewItem.Icon>
                 <NavigationViewItem.MenuItems>
                     <NavigationViewItem Tag="winuitest.animationinteroppage.AnimationInteropPage" Content="Animation interop" />
+                    <NavigationViewItem Tag="winuitest.connectedanimationpage.ConnectedAnimationPage" Content="Connected Animation" />
                 </NavigationViewItem.MenuItems>
             </NavigationViewItem>
         </NavigationView.MenuItems>
